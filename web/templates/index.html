@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>MarketFlow</title>
+  <style>
+    body { font-family: sans-serif; margin: 2rem; background: #f7f7f7; }
+    h1, h2 { color: #333; }
+    label, select, input, button { margin: 0.25rem; }
+    .box { background: #fff; padding: 1rem; margin-bottom: 2rem; border-radius: 8px; box-shadow: 0 0 10px #ddd; }
+    .result { margin-top: 0.5rem; font-weight: bold; }
+  </style>
+</head>
+<body>
+  <h1>MarketFlow</h1>
+
+  <div class="box">
+  <h2>Market Price Queries</h2>
+  <form id="queryForm">
+    <label>Symbol: <input type="text" id="symbol" required></label>
+    <label>Exchange (optional): <input type="text" id="exchange"></label>
+    <label>Period (optional): <input type="text" id="period" placeholder="e.g. 5s, 1m"></label>
+    <br>
+    <button type="button" id="btn-latest" onclick="query('latest')" disabled>Latest</button>
+    <button type="button" id="btn-highest" onclick="query('highest')" disabled>Highest</button>
+    <button type="button" id="btn-lowest" onclick="query('lowest')" disabled>Lowest</button>
+    <button type="button" id="btn-average" onclick="query('average')" disabled>Average</button>
+  </form>
+
+  <p style="color:#666;font-size:0.9rem;">
+    Exchanges: <strong>exchange1, exchange2, exchange3</strong><br>
+    <em>First of all choise one if this modes (Test или Live), to enable buttons.</em>
+  </p>
+
+  <div class="result" id="priceResult"></div>
+</div>
+
+
+  <div class="box">
+    <h2>Switch Data Mode</h2>
+    <button onclick="switchMode('test')">Switch to Test Mode</button>
+    <button onclick="switchMode('live')">Switch to Live Mode</button>
+    <div class="result" id="modeResult"></div>
+  </div>
+
+  <div class="box">
+    <h2>System Health</h2>
+    <button onclick="checkHealth()">Check Health</button>
+    <div class="result" id="healthResult"></div>
+  </div>
+
+  <script>
+    const baseURL = "";
+
+    function query(type) {
+      const symbol = document.getElementById("symbol").value;
+      const exchange = document.getElementById("exchange").value;
+      const period = document.getElementById("period").value;
+
+      if (!symbol) {
+        alert("Symbol is required.");
+        return;
+      }
+
+      let url = `/prices/${type}`;
+      if (exchange) {
+        url += `/${exchange}/${symbol}`;
+      } else {
+        url += `/${symbol}`;
+      }
+      if (period && (type === 'highest' || type === 'lowest' || type === 'average')) {
+        url += `?period=${encodeURIComponent(period)}`;
+      }
+
+      fetch(url)
+        .then(res => res.json())
+        .then(data => {
+          document.getElementById("priceResult").textContent = Object.entries(data)
+          .map(([k, v]) => `${k}: ${v}`)
+          .join(', ');
+        })
+        .catch(err => {
+          document.getElementById("priceResult").textContent = "Error: " + err.message;
+        });
+    }
+    let modeSelected = false;
+
+    function setModeEnabled(enabled) {
+      document.getElementById("btn-latest").disabled = !enabled;
+      document.getElementById("btn-highest").disabled = !enabled;
+      document.getElementById("btn-lowest").disabled = !enabled;
+      document.getElementById("btn-average").disabled = !enabled;
+    }
+
+
+    function switchMode(mode) {
+      fetch(`/mode/${mode}`, { method: "POST" })
+        .then(res => {
+          if (res.ok) {
+            modeSelected = true;
+            setModeEnabled(true);
+            return "Mode switched to " + mode.toUpperCase();
+          } else {
+            return "Failed to switch mode";
+          }
+        })
+        .then(msg => document.getElementById("modeResult").textContent = msg)
+        .catch(err => {
+          document.getElementById("modeResult").textContent = "Error: " + err.message;
+        });
+    }
+
+
+    function checkHealth() {
+      fetch("/health")
+        .then(res => res.ok ? "✅ Service is healthy" : "❌ Service is not available")
+        .then(msg => document.getElementById("healthResult").textContent = msg)
+        .catch(err => document.getElementById("healthResult").textContent = "Error: " + err.message);
+    }
+    setModeEnabled(false);
+  </script>
+</body>
+</html>
