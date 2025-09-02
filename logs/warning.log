@@ -1,0 +1,213 @@
+WARN: 2025/08/19 17:27:35 logger.go:63: No data found for latest price symbol BTCUSDT exchange exchange:40101
+WARN: 2025/08/19 17:27:38 logger.go:63: No data found for latest price symbol BTCUSDT exchange exchange:40101
+WARN: 2025/08/19 17:27:44 logger.go:63: No data found for latest price symbol BTCUSDT exchange exchange:40101
+WARN: 2025/08/19 17:27:45 logger.go:63: No data found for highest price symbol BTCUSDT exchange exchange:40101
+WARN: 2025/08/19 17:27:46 logger.go:63: No data found for latest price symbol BTCUSDT exchange exchange:40101
+WARN: 2025/08/19 17:27:46 logger.go:63: No data found for lowest price symbol BTCUSDT exchange exchange:40101
+WARN: 2025/08/19 17:27:47 logger.go:63: No data found for average price symbol BTCUSDT exchange exchange:40101
+WARN: 2025/08/19 17:27:48 logger.go:63: No data found for lowest price symbol BTCUSDT exchange exchange:40101
+WARN: 2025/08/19 17:27:48 logger.go:63: No data found for highest price symbol BTCUSDT exchange exchange:40101
+WARN: 2025/08/19 17:28:04 logger.go:63: No data found for average price symbol BTCUSDT exchange exchange:40101
+WARN: 2025/08/20 23:20:04 logger.go:63: Redis error: context canceled
+WARN: 2025/08/20 23:20:04 logger.go:63: Redis error: context canceled
+WARN: 2025/08/20 23:20:04 logger.go:63: Redis error: context canceled
+WARN: 2025/08/20 23:20:04 logger.go:63: Redis error: context canceled
+WARN: 2025/08/20 23:20:04 logger.go:63: Redis error: context canceled
+WARN: 2025/08/20 23:20:05 logger.go:63: Redis error: failed to set aggregate latest: context canceled
+WARN: 2025/08/20 23:20:05 logger.go:63: Redis error: failed to set exchange latest: context canceled
+WARN: 2025/08/20 23:20:05 logger.go:63: Redis error: failed to set aggregate latest: context canceled
+WARN: 2025/08/20 23:20:05 logger.go:63: Redis error: failed to set aggregate latest: context canceled
+WARN: 2025/08/20 23:20:05 logger.go:63: Redis error: context canceled
+WARN: 2025/08/20 23:20:05 logger.go:63: Redis error: context canceled
+WARN: 2025/08/20 23:20:05 logger.go:63: Redis error: context canceled
+WARN: 2025/08/20 23:20:48 logger.go:63: Redis error: context canceled
+WARN: 2025/08/20 23:20:48 logger.go:63: Redis error: context canceled
+WARN: 2025/08/20 23:20:48 logger.go:63: Redis error: context canceled
+WARN: 2025/08/20 23:20:48 logger.go:63: Redis error: context canceled
+WARN: 2025/08/20 23:20:48 logger.go:63: Redis error: context canceled
+WARN: 2025/08/22 13:07:48 logger.go:63: LatestPrice error symbol BTCawd exchange exchange1 error no data yet
+WARN: 2025/08/22 13:08:08 logger.go:63: HighestPrice error symbol BTCawd exchange  error no data yet
+WARN: 2025/08/22 13:08:08 logger.go:63: LatestPrice error symbol BTCawd exchange  error no data yet
+WARN: 2025/08/22 13:08:10 logger.go:63: HighestPrice error symbol BTCawd exchange  error no data yet
+WARN: 2025/08/22 13:09:15 logger.go:63: LatestPrice error symbol BTCUSDT exchange exchange2 error no data yet
+WARN: 2025/08/22 13:09:18 logger.go:63: LatestPrice error symbol BTCUSDT exchange exchange2 error no data yet
+WARN: 2025/08/22 13:09:19 logger.go:63: LatestPrice error symbol BTCUSDT exchange exchange2 error no data yet
+WARN: 2025/08/22 13:09:19 logger.go:63: LatestPrice error symbol BTCUSDT exchange exchange2 error no data yet
+WARN: 2025/08/22 13:09:19 logger.go:63: LatestPrice error symbol BTCUSDT exchange exchange2 error no data yet
+WARN: 2025/08/22 13:09:45 logger.go:63: HighestPrice error symbol BTCUSDT exchange exchange2:40102 error no data for symbol BTCUSDT and exchange exchange2:40102
+WARN: 2025/08/22 13:10:00 logger.go:63: LowestPrice error symbol BTCUSDT exchange exchange2:40102 error no data for symbol BTCUSDT and exchange exchange2:40102
+WARN: 2025/08/22 13:10:01 logger.go:63: HighestPrice error symbol BTCUSDT exchange exchange2:40102 error no data for symbol BTCUSDT and exchange exchange2:40102
+WARN: 2025/08/22 13:10:02 logger.go:63: HighestPrice error symbol BTCUSDT exchange exchange2:40102 error no data for symbol BTCUSDT and exchange exchange2:40102
+WARN: 2025/08/22 13:10:03 logger.go:63: LowestPrice error symbol BTCUSDT exchange exchange2:40102 error no data for symbol BTCUSDT and exchange exchange2:40102
+WARN: 2025/08/22 13:10:03 logger.go:63: HighestPrice error symbol BTCUSDT exchange exchange2:40102 error no data for symbol BTCUSDT and exchange exchange2:40102
+WARN: 2025/08/22 13:10:04 logger.go:63: LowestPrice error symbol BTCUSDT exchange exchange2:40102 error no data for symbol BTCUSDT and exchange exchange2:40102
+WARN: 2025/08/22 13:10:10 logger.go:63: HighestPrice error symbol BTCUSDT exchange exchange2:40102 error no data for symbol BTCUSDT and exchange exchange2:40102
+WARN: 2025/08/22 13:24:55 logger.go:63: LatestPrice error symbol BTSUSDT exchange  error no data yet
+WARN: 2025/08/22 13:31:37 logger.go:63: LatestPrice error symbol BTCUSDT exchange exchange2:40101 error no data yet
+WARN: 2025/08/26 14:41:59 logger.go:63: Invalid period error invalid period format
+WARN: 2025/08/26 14:42:00 logger.go:63: Invalid period error invalid period format
+WARN: 2025/08/26 15:00:32 logger.go:63: AveragePrice error symbol BTCUSDT exchange exchange1:40101 error no data for symbol BTCUSDT and exchange exchange1:40101
+WARN: 2025/08/26 15:00:38 logger.go:63: LowestPrice error symbol BTCUSDT exchange exchange1:40101 error no data for symbol BTCUSDT and exchange exchange1:40101
+WARN: 2025/08/26 15:00:38 logger.go:63: HighestPrice error symbol BTCUSDT exchange exchange1:40101 error no data for symbol BTCUSDT and exchange exchange1:40101
+WARN: 2025/08/26 15:00:39 logger.go:63: LatestPrice error symbol BTCUSDT exchange exchange1:40101 error no data yet
+WARN: 2025/08/26 15:00:39 logger.go:63: LatestPrice error symbol BTCUSDT exchange exchange1:40101 error no data yet
+WARN: 2025/08/26 15:00:40 logger.go:63: LatestPrice error symbol BTCUSDT exchange exchange1:40101 error no data yet
+WARN: 2025/08/26 15:01:08 logger.go:63: AveragePrice error symbol BTCUSDT exchange exchange1:40101 error no data for symbol BTCUSDT and exchange exchange1:40101
+WARN: 2025/08/26 15:01:09 logger.go:63: AveragePrice error symbol BTCUSDT exchange exchange1:40101 error no data for symbol BTCUSDT and exchange exchange1:40101
+WARN: 2025/08/26 15:01:10 logger.go:63: LowestPrice error symbol BTCUSDT exchange exchange1:40101 error no data for symbol BTCUSDT and exchange exchange1:40101
+WARN: 2025/08/26 15:01:10 logger.go:63: HighestPrice error symbol BTCUSDT exchange exchange1:40101 error no data for symbol BTCUSDT and exchange exchange1:40101
+WARN: 2025/08/26 15:01:55 logger.go:63: AveragePrice error symbol BTCUSDT exchange exchange1:40101 error no data for symbol BTCUSDT and exchange exchange1:40101
+WARN: 2025/08/26 15:01:56 logger.go:63: AveragePrice error symbol BTCUSDT exchange exchange1:40101 error no data for symbol BTCUSDT and exchange exchange1:40101
+WARN: 2025/08/26 15:01:56 logger.go:63: LowestPrice error symbol BTCUSDT exchange exchange1:40101 error no data for symbol BTCUSDT and exchange exchange1:40101
+WARN: 2025/08/26 15:01:57 logger.go:63: HighestPrice error symbol BTCUSDT exchange exchange1:40101 error no data for symbol BTCUSDT and exchange exchange1:40101
+WARN: 2025/08/26 15:01:57 logger.go:63: HighestPrice error symbol BTCUSDT exchange exchange1:40101 error no data for symbol BTCUSDT and exchange exchange1:40101
+WARN: 2025/08/26 15:01:57 logger.go:63: HighestPrice error symbol BTCUSDT exchange exchange1:40101 error no data for symbol BTCUSDT and exchange exchange1:40101
+WARN: 2025/08/26 15:02:08 logger.go:63: AveragePrice error symbol BTCUSDT exchange exchange1:40101 error no data for symbol BTCUSDT and exchange exchange1:40101
+WARN: 2025/08/26 15:03:25 logger.go:63: AveragePrice error symbol BTCUSDT exchange exchange1:40101 error no data for symbol BTCUSDT and exchange exchange1:40101
+WARN: 2025/08/26 15:03:26 logger.go:63: AveragePrice error symbol BTCUSDT exchange exchange1:40101 error no data for symbol BTCUSDT and exchange exchange1:40101
+WARN: 2025/08/26 15:13:24 logger.go:63: AveragePrice error symbol BTCUSDT exchange exchange1:40101 error no data for symbol BTCUSDT and exchange exchange1:40101
+WARN: 2025/08/26 15:13:25 logger.go:63: AveragePrice error symbol BTCUSDT exchange exchange1:40101 error no data for symbol BTCUSDT and exchange exchange1:40101
+WARN: 2025/08/26 15:13:25 logger.go:63: AveragePrice error symbol BTCUSDT exchange exchange1:40101 error no data for symbol BTCUSDT and exchange exchange1:40101
+WARN: 2025/08/26 15:13:25 logger.go:63: AveragePrice error symbol BTCUSDT exchange exchange1:40101 error no data for symbol BTCUSDT and exchange exchange1:40101
+WARN: 2025/08/26 15:13:26 logger.go:63: AveragePrice error symbol BTCUSDT exchange exchange1:40101 error no data for symbol BTCUSDT and exchange exchange1:40101
+WARN: 2025/08/26 15:13:26 logger.go:63: AveragePrice error symbol BTCUSDT exchange exchange1:40101 error no data for symbol BTCUSDT and exchange exchange1:40101
+WARN: 2025/08/26 15:13:26 logger.go:63: AveragePrice error symbol BTCUSDT exchange exchange1:40101 error no data for symbol BTCUSDT and exchange exchange1:40101
+WARN: 2025/08/26 15:15:01 logger.go:63: AveragePrice error symbol BTCUSDT exchange exchange1:40101 error no data for symbol BTCUSDT and exchange exchange1:40101
+WARN: 2025/08/26 15:15:01 logger.go:63: AveragePrice error symbol BTCUSDT exchange exchange1:40101 error no data for symbol BTCUSDT and exchange exchange1:40101
+WARN: 2025/08/26 15:15:01 logger.go:63: AveragePrice error symbol BTCUSDT exchange exchange1:40101 error no data for symbol BTCUSDT and exchange exchange1:40101
+WARN: 2025/08/26 15:15:02 logger.go:63: AveragePrice error symbol BTCUSDT exchange exchange1:40101 error no data for symbol BTCUSDT and exchange exchange1:40101
+WARN: 2025/08/26 15:15:02 logger.go:63: AveragePrice error symbol BTCUSDT exchange exchange1:40101 error no data for symbol BTCUSDT and exchange exchange1:40101
+WARN: 2025/08/26 15:15:03 logger.go:63: LowestPrice error symbol BTCUSDT exchange exchange1:40101 error no data for symbol BTCUSDT and exchange exchange1:40101
+WARN: 2025/08/26 15:15:03 logger.go:63: LowestPrice error symbol BTCUSDT exchange exchange1:40101 error no data for symbol BTCUSDT and exchange exchange1:40101
+WARN: 2025/08/26 15:15:03 logger.go:63: HighestPrice error symbol BTCUSDT exchange exchange1:40101 error no data for symbol BTCUSDT and exchange exchange1:40101
+WARN: 2025/08/26 15:15:04 logger.go:63: HighestPrice error symbol BTCUSDT exchange exchange1:40101 error no data for symbol BTCUSDT and exchange exchange1:40101
+WARN: 2025/08/26 15:15:05 logger.go:63: AveragePrice error symbol BTCUSDT exchange exchange1:40101 error no data for symbol BTCUSDT and exchange exchange1:40101
+WARN: 2025/08/26 15:15:05 logger.go:63: AveragePrice error symbol BTCUSDT exchange exchange1:40101 error no data for symbol BTCUSDT and exchange exchange1:40101
+WARN: 2025/08/26 15:15:05 logger.go:63: AveragePrice error symbol BTCUSDT exchange exchange1:40101 error no data for symbol BTCUSDT and exchange exchange1:40101
+WARN: 2025/08/26 15:15:14 logger.go:63: AveragePrice error symbol BTCUSDT exchange exchange1:40101 error no data for symbol BTCUSDT and exchange exchange1:40101
+WARN: 2025/08/26 15:15:14 logger.go:63: AveragePrice error symbol BTCUSDT exchange exchange1:40101 error no data for symbol BTCUSDT and exchange exchange1:40101
+WARN: 2025/08/26 15:15:58 logger.go:63: AveragePrice error symbol BTCUSDT exchange exchange1:40101 error no data for symbol BTCUSDT and exchange exchange1:40101
+WARN: 2025/08/26 15:15:59 logger.go:63: AveragePrice error symbol BTCUSDT exchange exchange1:40101 error no data for symbol BTCUSDT and exchange exchange1:40101
+WARN: 2025/08/26 15:15:59 logger.go:63: AveragePrice error symbol BTCUSDT exchange exchange1:40101 error no data for symbol BTCUSDT and exchange exchange1:40101
+WARN: 2025/08/26 15:15:59 logger.go:63: AveragePrice error symbol BTCUSDT exchange exchange1:40101 error no data for symbol BTCUSDT and exchange exchange1:40101
+WARN: 2025/08/26 15:16:01 logger.go:63: LowestPrice error symbol BTCUSDT exchange exchange1:40101 error no data for symbol BTCUSDT and exchange exchange1:40101
+WARN: 2025/08/26 15:16:01 logger.go:63: AveragePrice error symbol BTCUSDT exchange exchange1:40101 error no data for symbol BTCUSDT and exchange exchange1:40101
+WARN: 2025/08/26 15:16:01 logger.go:63: AveragePrice error symbol BTCUSDT exchange exchange1:40101 error no data for symbol BTCUSDT and exchange exchange1:40101
+WARN: 2025/08/26 15:16:01 logger.go:63: AveragePrice error symbol BTCUSDT exchange exchange1:40101 error no data for symbol BTCUSDT and exchange exchange1:40101
+WARN: 2025/08/26 15:16:02 logger.go:63: LowestPrice error symbol BTCUSDT exchange exchange1:40101 error no data for symbol BTCUSDT and exchange exchange1:40101
+WARN: 2025/08/26 15:16:02 logger.go:63: LowestPrice error symbol BTCUSDT exchange exchange1:40101 error no data for symbol BTCUSDT and exchange exchange1:40101
+WARN: 2025/08/26 15:16:02 logger.go:63: LowestPrice error symbol BTCUSDT exchange exchange1:40101 error no data for symbol BTCUSDT and exchange exchange1:40101
+WARN: 2025/08/26 15:16:03 logger.go:63: LowestPrice error symbol BTCUSDT exchange exchange1:40101 error no data for symbol BTCUSDT and exchange exchange1:40101
+WARN: 2025/08/26 15:16:03 logger.go:63: LowestPrice error symbol BTCUSDT exchange exchange1:40101 error no data for symbol BTCUSDT and exchange exchange1:40101
+WARN: 2025/08/26 15:16:03 logger.go:63: LowestPrice error symbol BTCUSDT exchange exchange1:40101 error no data for symbol BTCUSDT and exchange exchange1:40101
+WARN: 2025/08/26 15:16:03 logger.go:63: LowestPrice error symbol BTCUSDT exchange exchange1:40101 error no data for symbol BTCUSDT and exchange exchange1:40101
+WARN: 2025/08/26 15:16:04 logger.go:63: LowestPrice error symbol BTCUSDT exchange exchange1:40101 error no data for symbol BTCUSDT and exchange exchange1:40101
+WARN: 2025/08/26 15:16:05 logger.go:63: HighestPrice error symbol BTCUSDT exchange exchange1:40101 error no data for symbol BTCUSDT and exchange exchange1:40101
+WARN: 2025/08/26 15:16:05 logger.go:63: HighestPrice error symbol BTCUSDT exchange exchange1:40101 error no data for symbol BTCUSDT and exchange exchange1:40101
+WARN: 2025/08/26 15:16:05 logger.go:63: HighestPrice error symbol BTCUSDT exchange exchange1:40101 error no data for symbol BTCUSDT and exchange exchange1:40101
+WARN: 2025/08/26 15:16:06 logger.go:63: HighestPrice error symbol BTCUSDT exchange exchange1:40101 error no data for symbol BTCUSDT and exchange exchange1:40101
+WARN: 2025/08/26 15:16:06 logger.go:63: HighestPrice error symbol BTCUSDT exchange exchange1:40101 error no data for symbol BTCUSDT and exchange exchange1:40101
+WARN: 2025/08/26 15:16:06 logger.go:63: HighestPrice error symbol BTCUSDT exchange exchange1:40101 error no data for symbol BTCUSDT and exchange exchange1:40101
+WARN: 2025/08/26 15:16:06 logger.go:63: HighestPrice error symbol BTCUSDT exchange exchange1:40101 error no data for symbol BTCUSDT and exchange exchange1:40101
+WARN: 2025/08/26 15:16:07 logger.go:63: HighestPrice error symbol BTCUSDT exchange exchange1:40101 error no data for symbol BTCUSDT and exchange exchange1:40101
+WARN: 2025/08/26 15:16:07 logger.go:63: HighestPrice error symbol BTCUSDT exchange exchange1:40101 error no data for symbol BTCUSDT and exchange exchange1:40101
+WARN: 2025/08/26 15:20:25 logger.go:63: AveragePrice error symbol BTCUSDT exchange exchange1:40101 error no data for symbol BTCUSDT and exchange exchange1:40101
+WARN: 2025/08/26 15:20:26 logger.go:63: LowestPrice error symbol BTCUSDT exchange exchange1:40101 error no data for symbol BTCUSDT and exchange exchange1:40101
+WARN: 2025/08/26 15:20:26 logger.go:63: HighestPrice error symbol BTCUSDT exchange exchange1:40101 error no data for symbol BTCUSDT and exchange exchange1:40101
+WARN: 2025/08/26 15:20:28 logger.go:63: AveragePrice error symbol BTCUSDT exchange exchange1:40101 error no data for symbol BTCUSDT and exchange exchange1:40101
+WARN: 2025/08/26 15:20:28 logger.go:63: AveragePrice error symbol BTCUSDT exchange exchange1:40101 error no data for symbol BTCUSDT and exchange exchange1:40101
+WARN: 2025/08/26 15:20:28 logger.go:63: AveragePrice error symbol BTCUSDT exchange exchange1:40101 error no data for symbol BTCUSDT and exchange exchange1:40101
+WARN: 2025/08/26 15:20:29 logger.go:63: AveragePrice error symbol BTCUSDT exchange exchange1:40101 error no data for symbol BTCUSDT and exchange exchange1:40101
+WARN: 2025/08/26 15:20:29 logger.go:63: AveragePrice error symbol BTCUSDT exchange exchange1:40101 error no data for symbol BTCUSDT and exchange exchange1:40101
+WARN: 2025/08/26 15:20:39 logger.go:63: AveragePrice error symbol BTCUSDT exchange exchange1:40101 error no data for symbol BTCUSDT and exchange exchange1:40101
+WARN: 2025/08/26 15:20:39 logger.go:63: AveragePrice error symbol BTCUSDT exchange exchange1:40101 error no data for symbol BTCUSDT and exchange exchange1:40101
+WARN: 2025/08/26 15:20:39 logger.go:63: AveragePrice error symbol BTCUSDT exchange exchange1:40101 error no data for symbol BTCUSDT and exchange exchange1:40101
+WARN: 2025/08/26 15:20:39 logger.go:63: AveragePrice error symbol BTCUSDT exchange exchange1:40101 error no data for symbol BTCUSDT and exchange exchange1:40101
+WARN: 2025/08/26 15:20:55 logger.go:63: AveragePrice error symbol BTCUSDT exchange exchange1:40101 error no data for symbol BTCUSDT and exchange exchange1:40101
+WARN: 2025/08/26 15:20:55 logger.go:63: AveragePrice error symbol BTCUSDT exchange exchange1:40101 error no data for symbol BTCUSDT and exchange exchange1:40101
+WARN: 2025/08/26 15:20:55 logger.go:63: AveragePrice error symbol BTCUSDT exchange exchange1:40101 error no data for symbol BTCUSDT and exchange exchange1:40101
+WARN: 2025/08/26 15:20:55 logger.go:63: AveragePrice error symbol BTCUSDT exchange exchange1:40101 error no data for symbol BTCUSDT and exchange exchange1:40101
+WARN: 2025/08/26 15:20:55 logger.go:63: AveragePrice error symbol BTCUSDT exchange exchange1:40101 error no data for symbol BTCUSDT and exchange exchange1:40101
+WARN: 2025/08/26 15:21:08 logger.go:63: AveragePrice error symbol BTCUSDT exchange exchange1:40101 error no data for symbol BTCUSDT and exchange exchange1:40101
+WARN: 2025/08/26 15:21:08 logger.go:63: AveragePrice error symbol BTCUSDT exchange exchange1:40101 error no data for symbol BTCUSDT and exchange exchange1:40101
+WARN: 2025/08/26 15:21:08 logger.go:63: AveragePrice error symbol BTCUSDT exchange exchange1:40101 error no data for symbol BTCUSDT and exchange exchange1:40101
+WARN: 2025/08/26 15:21:08 logger.go:63: AveragePrice error symbol BTCUSDT exchange exchange1:40101 error no data for symbol BTCUSDT and exchange exchange1:40101
+WARN: 2025/08/26 15:21:09 logger.go:63: AveragePrice error symbol BTCUSDT exchange exchange1:40101 error no data for symbol BTCUSDT and exchange exchange1:40101
+WARN: 2025/08/26 15:21:09 logger.go:63: AveragePrice error symbol BTCUSDT exchange exchange1:40101 error no data for symbol BTCUSDT and exchange exchange1:40101
+WARN: 2025/08/26 15:21:09 logger.go:63: AveragePrice error symbol BTCUSDT exchange exchange1:40101 error no data for symbol BTCUSDT and exchange exchange1:40101
+WARN: 2025/08/26 15:21:08 logger.go:63: AveragePrice error symbol BTCUSDT exchange exchange1:40101 error no data for symbol BTCUSDT and exchange exchange1:40101
+WARN: 2025/08/26 15:21:09 logger.go:63: AveragePrice error symbol BTCUSDT exchange exchange1:40101 error no data for symbol BTCUSDT and exchange exchange1:40101
+WARN: 2025/08/26 15:21:09 logger.go:63: AveragePrice error symbol BTCUSDT exchange exchange1:40101 error no data for symbol BTCUSDT and exchange exchange1:40101
+WARN: 2025/08/26 15:21:09 logger.go:63: AveragePrice error symbol BTCUSDT exchange exchange1:40101 error no data for symbol BTCUSDT and exchange exchange1:40101
+WARN: 2025/08/26 15:21:09 logger.go:63: AveragePrice error symbol BTCUSDT exchange exchange1:40101 error no data for symbol BTCUSDT and exchange exchange1:40101
+WARN: 2025/08/26 15:21:09 logger.go:63: AveragePrice error symbol BTCUSDT exchange exchange1:40101 error no data for symbol BTCUSDT and exchange exchange1:40101
+WARN: 2025/08/26 15:21:10 logger.go:63: LowestPrice error symbol BTCUSDT exchange exchange1:40101 error no data for symbol BTCUSDT and exchange exchange1:40101
+WARN: 2025/08/26 15:21:10 logger.go:63: LowestPrice error symbol BTCUSDT exchange exchange1:40101 error no data for symbol BTCUSDT and exchange exchange1:40101
+WARN: 2025/08/26 15:21:10 logger.go:63: LowestPrice error symbol BTCUSDT exchange exchange1:40101 error no data for symbol BTCUSDT and exchange exchange1:40101
+WARN: 2025/08/26 15:21:11 logger.go:63: HighestPrice error symbol BTCUSDT exchange exchange1:40101 error no data for symbol BTCUSDT and exchange exchange1:40101
+WARN: 2025/08/26 15:21:11 logger.go:63: HighestPrice error symbol BTCUSDT exchange exchange1:40101 error no data for symbol BTCUSDT and exchange exchange1:40101
+WARN: 2025/08/26 15:21:13 logger.go:63: AveragePrice error symbol BTCUSDT exchange exchange1:40101 error no data for symbol BTCUSDT and exchange exchange1:40101
+WARN: 2025/08/26 15:21:13 logger.go:63: AveragePrice error symbol BTCUSDT exchange exchange1:40101 error no data for symbol BTCUSDT and exchange exchange1:40101
+WARN: 2025/08/26 15:21:13 logger.go:63: AveragePrice error symbol BTCUSDT exchange exchange1:40101 error no data for symbol BTCUSDT and exchange exchange1:40101
+WARN: 2025/08/26 15:24:52 logger.go:63: AveragePrice error symbol BTCUSDT exchange exchange1:40101 error no data for symbol BTCUSDT and exchange exchange1:40101
+WARN: 2025/08/26 15:24:53 logger.go:63: LowestPrice error symbol BTCUSDT exchange exchange1:40101 error no data for symbol BTCUSDT and exchange exchange1:40101
+WARN: 2025/08/26 15:24:54 logger.go:63: AveragePrice error symbol BTCUSDT exchange exchange1:40101 error no data for symbol BTCUSDT and exchange exchange1:40101
+WARN: 2025/08/26 15:25:18 logger.go:63: AveragePrice error symbol BTCUSDT exchange exchange1:40101 error no data for symbol BTCUSDT and exchange exchange1:40101
+WARN: 2025/08/26 15:25:19 logger.go:63: AveragePrice error symbol BTCUSDT exchange exchange1:40101 error no data for symbol BTCUSDT and exchange exchange1:40101
+WARN: 2025/08/26 15:25:19 logger.go:63: AveragePrice error symbol BTCUSDT exchange exchange1:40101 error no data for symbol BTCUSDT and exchange exchange1:40101
+WARN: 2025/08/26 15:25:22 logger.go:63: AveragePrice error symbol BTCUSDT exchange exchange1:40101 error no data for symbol BTCUSDT and exchange exchange1:40101
+WARN: 2025/08/26 15:25:22 logger.go:63: AveragePrice error symbol BTCUSDT exchange exchange1:40101 error no data for symbol BTCUSDT and exchange exchange1:40101
+WARN: 2025/08/26 15:25:22 logger.go:63: AveragePrice error symbol BTCUSDT exchange exchange1:40101 error no data for symbol BTCUSDT and exchange exchange1:40101
+WARN: 2025/08/26 15:51:05 logger.go:63: Redis error: redis: client is closed
+WARN: 2025/08/26 15:51:05 logger.go:63: Redis error: redis: client is closed
+WARN: 2025/08/26 15:51:05 logger.go:63: Redis error: failed to ZAdd: redis: client is closed
+WARN: 2025/08/26 15:51:05 logger.go:63: Redis error: failed to ZAdd: redis: client is closed
+WARN: 2025/08/26 15:51:05 logger.go:63: Redis error: failed to ZAdd: redis: client is closed
+WARN: 2025/08/26 15:51:05 logger.go:63: Redis error: failed to ZAdd: redis: client is closed
+WARN: 2025/08/26 15:51:05 logger.go:63: Redis error: failed to ZAdd: redis: client is closed
+WARN: 2025/08/26 15:51:05 logger.go:63: Redis error: failed to ZAdd: redis: client is closed
+WARN: 2025/08/26 15:51:05 logger.go:63: Redis error: failed to ZAdd: redis: client is closed
+WARN: 2025/08/26 15:51:05 logger.go:63: Redis error: failed to ZAdd: redis: client is closed
+WARN: 2025/08/26 15:51:05 logger.go:63: Redis error: failed to ZAdd: redis: client is closed
+WARN: 2025/08/26 15:51:05 logger.go:63: Redis error: redis: client is closed
+WARN: 2025/08/26 15:51:05 logger.go:63: Redis error: redis: client is closed
+WARN: 2025/08/26 15:51:05 logger.go:63: Redis error: redis: client is closed
+WARN: 2025/08/26 16:00:11 logger.go:63: Redis недоступен, fallback на Postgres: no data found for symbol BTCUSDT in the given period
+WARN: 2025/08/26 16:00:11 logger.go:63: AveragePrice error symbol BTCUSDT exchange exchange1:40101 error no data for symbol BTCUSDT and exchange exchange1:40101
+WARN: 2025/08/26 16:00:29 logger.go:63: AveragePrice error symbol BTCUSDT exchange exchange1:40101 error no data for symbol BTCUSDT and exchange exchange1:40101
+WARN: 2025/08/26 16:00:30 logger.go:63: AveragePrice error symbol BTCUSDT exchange exchange1:40101 error no data for symbol BTCUSDT and exchange exchange1:40101
+WARN: 2025/08/26 16:00:30 logger.go:63: AveragePrice error symbol BTCUSDT exchange exchange1:40101 error no data for symbol BTCUSDT and exchange exchange1:40101
+WARN: 2025/08/26 16:18:07 logger.go:63: AveragePrice error symbol BTCUSDT exchange exchange1:40101 error no data for symbol BTCUSDT and exchange exchange1:40101
+WARN: 2025/08/26 16:29:45 logger.go:63: AveragePrice error symbol BTCUSDT exchange exchange1:40101 error no data for symbol BTCUSDT and exchange exchange1
+WARN: 2025/08/26 16:29:46 logger.go:63: AveragePrice error symbol BTCUSDT exchange exchange1:40101 error no data for symbol BTCUSDT and exchange exchange1
+WARN: 2025/08/26 16:29:46 logger.go:63: AveragePrice error symbol BTCUSDT exchange exchange1:40101 error no data for symbol BTCUSDT and exchange exchange1
+WARN: 2025/08/26 16:29:47 logger.go:63: LowestPrice error symbol BTCUSDT exchange exchange1:40101 error no data for symbol BTCUSDT and exchange exchange1
+WARN: 2025/08/26 16:29:47 logger.go:63: AveragePrice error symbol BTCUSDT exchange exchange1:40101 error no data for symbol BTCUSDT and exchange exchange1
+WARN: 2025/08/26 16:29:50 logger.go:63: AveragePrice error symbol BTCUSDT exchange exchange2:40102 error no data for symbol BTCUSDT and exchange exchange2
+WARN: 2025/08/26 16:29:50 logger.go:63: AveragePrice error symbol BTCUSDT exchange exchange2:40102 error no data for symbol BTCUSDT and exchange exchange2
+WARN: 2025/08/26 16:29:50 logger.go:63: AveragePrice error symbol BTCUSDT exchange exchange2:40102 error no data for symbol BTCUSDT and exchange exchange2
+WARN: 2025/08/26 16:29:53 logger.go:63: AveragePrice error symbol BTCUSDT exchange exchange3:40103 error no data for symbol BTCUSDT and exchange exchange3
+WARN: 2025/08/26 16:29:53 logger.go:63: AveragePrice error symbol BTCUSDT exchange exchange3:40103 error no data for symbol BTCUSDT and exchange exchange3
+WARN: 2025/08/26 16:29:55 logger.go:63: Invalid exchange exchange exchange4
+WARN: 2025/08/26 16:29:55 logger.go:63: Invalid exchange exchange exchange4
+WARN: 2025/08/26 16:29:55 logger.go:63: Invalid exchange exchange exchange4
+WARN: 2025/08/26 16:30:01 logger.go:63: AveragePrice error symbol BTCUSDT exchange exchange3:40103 error no data for symbol BTCUSDT and exchange exchange3
+WARN: 2025/08/26 16:30:02 logger.go:63: AveragePrice error symbol BTCUSDT exchange exchange3:40103 error no data for symbol BTCUSDT and exchange exchange3
+WARN: 2025/08/26 16:30:02 logger.go:63: AveragePrice error symbol BTCUSDT exchange exchange3:40103 error no data for symbol BTCUSDT and exchange exchange3
+WARN: 2025/08/26 16:31:45 logger.go:63: AveragePrice error symbol BTCUSDT exchange exchange3:40103 error no data for symbol BTCUSDT and exchange exchange3
+WARN: 2025/08/26 16:31:46 logger.go:63: AveragePrice error symbol BTCUSDT exchange exchange3:40103 error no data for symbol BTCUSDT and exchange exchange3
+WARN: 2025/08/26 16:31:50 logger.go:63: AveragePrice error symbol BTCUSDT exchange exchange3:40103 error no data for symbol BTCUSDT and exchange exchange3
+WARN: 2025/08/26 16:31:50 logger.go:63: AveragePrice error symbol BTCUSDT exchange exchange3:40103 error no data for symbol BTCUSDT and exchange exchange3
+WARN: 2025/08/26 16:31:50 logger.go:63: AveragePrice error symbol BTCUSDT exchange exchange3:40103 error no data for symbol BTCUSDT and exchange exchange3
+WARN: 2025/08/26 16:31:50 logger.go:63: AveragePrice error symbol BTCUSDT exchange exchange3:40103 error no data for symbol BTCUSDT and exchange exchange3
+WARN: 2025/08/26 16:31:53 logger.go:63: AveragePrice error symbol BTCUSDT exchange exchange1:40101 error no data for symbol BTCUSDT and exchange exchange1
+WARN: 2025/08/26 16:31:53 logger.go:63: AveragePrice error symbol BTCUSDT exchange exchange1:40101 error no data for symbol BTCUSDT and exchange exchange1
+WARN: 2025/08/26 16:31:53 logger.go:63: AveragePrice error symbol BTCUSDT exchange exchange1:40101 error no data for symbol BTCUSDT and exchange exchange1
+WARN: 2025/08/26 16:31:54 logger.go:63: AveragePrice error symbol BTCUSDT exchange exchange1:40101 error no data for symbol BTCUSDT and exchange exchange1
+WARN: 2025/08/26 16:32:34 logger.go:63: AveragePrice error symbol BTCUSDT exchange exchange1:40101 error no data for symbol BTCUSDT and exchange exchange1
+WARN: 2025/08/26 16:32:34 logger.go:63: LowestPrice error symbol BTCUSDT exchange exchange1:40101 error no data for symbol BTCUSDT and exchange exchange1
+WARN: 2025/08/26 16:32:35 logger.go:63: AveragePrice error symbol BTCUSDT exchange exchange1:40101 error no data for symbol BTCUSDT and exchange exchange1
+WARN: 2025/08/26 16:40:56 logger.go:63: Redis error: failed to ZAdd: redis: client is closed
+WARN: 2025/08/26 16:40:56 logger.go:63: Redis error: failed to ZAdd: redis: client is closed
+WARN: 2025/08/26 16:40:56 logger.go:63: Redis error: failed to ZAdd: redis: client is closed
+WARN: 2025/08/26 16:40:56 logger.go:63: Redis error: failed to ZAdd: redis: client is closed

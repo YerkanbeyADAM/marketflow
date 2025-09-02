@@ -1,0 +1,70 @@
+ERROR: 2025/08/14 13:37:38 logger.go:69: Не удалось запустить HTTP сервер: http: Server closed
+ERROR: 2025/08/14 14:14:21 logger.go:69: Не удалось запустить HTTP сервер: http: Server closed
+ERROR: 2025/08/14 18:14:34 logger.go:69: Не удалось запустить HTTP сервер: http: Server closed
+ERROR: 2025/08/14 18:18:13 logger.go:69: Не удалось запустить HTTP сервер: http: Server closed
+ERROR: 2025/08/16 21:11:01 logger.go:69: Не удалось подключиться к Redis: failed to connect to Redis: dial tcp: lookup redis: i/o timeout
+ERROR: 2025/08/16 21:11:45 logger.go:69: Не удалось подключиться к Redis: failed to connect to Redis: dial tcp: lookup redis: i/o timeout
+ERROR: 2025/08/16 21:12:13 logger.go:69: Не удалось подключиться к Redis: failed to connect to Redis: dial tcp: lookup redis: i/o timeout
+ERROR: 2025/08/16 21:15:49 logger.go:69: Не удалось запустить HTTP сервер: http: Server closed
+ERROR: 2025/08/16 21:17:32 logger.go:69: Не удалось запустить HTTP сервер: http: Server closed
+ERROR: 2025/08/16 21:20:14 logger.go:69: Ошибка подключения к exchange3:40103: dial tcp: lookup exchange3 on 10.255.255.254:53: read udp 10.255.255.254:60364->10.255.255.254:53: i/o timeout
+
+ERROR: 2025/08/16 21:20:14 logger.go:69: Ошибка подключения к exchange2:40102: dial tcp: lookup exchange2 on 10.255.255.254:53: read udp 10.255.255.254:59185->10.255.255.254:53: i/o timeout
+
+ERROR: 2025/08/16 21:20:14 logger.go:69: Ошибка подключения к exchange1:40101: dial tcp: lookup exchange1 on 10.255.255.254:53: read udp 10.255.255.254:38986->10.255.255.254:53: i/o timeout
+
+ERROR: 2025/08/16 21:21:25 logger.go:69: Не удалось запустить HTTP сервер: http: Server closed
+ERROR: 2025/08/16 21:22:01 logger.go:69: Ошибка подключения к exchange2:40102: dial tcp: lookup exchange2 on 10.255.255.254:53: read udp 10.255.255.254:59738->10.255.255.254:53: i/o timeout
+
+ERROR: 2025/08/16 21:22:01 logger.go:69: Ошибка подключения к exchange1:40101: dial tcp: lookup exchange1 on 10.255.255.254:53: read udp 10.255.255.254:49270->10.255.255.254:53: i/o timeout
+
+ERROR: 2025/08/16 21:22:01 logger.go:69: Ошибка подключения к exchange3:40103: dial tcp: lookup exchange3 on 10.255.255.254:53: read udp 10.255.255.254:51142->10.255.255.254:53: i/o timeout
+
+ERROR: 2025/08/16 21:22:36 logger.go:69: Не удалось запустить HTTP сервер: http: Server closed
+ERROR: 2025/08/16 17:40:15 logger.go:69: Не удалось запустить HTTP сервер: http: Server closed
+ERROR: 2025/08/16 17:43:37 logger.go:69: Не удалось запустить HTTP сервер: http: Server closed
+ERROR: 2025/08/19 11:42:38 logger.go:69: Не удалось запустить HTTP сервер: http: Server closed
+ERROR: 2025/08/19 17:31:47 logger.go:69: Не удалось запустить HTTP сервер: http: Server closed
+ERROR: 2025/08/19 18:38:33 logger.go:69: Не удалось запустить HTTP сервер: http: Server closed
+ERROR: 2025/08/20 16:11:02 logger.go:69: PostgreSQL save error: failed to connect to `user=postgres database=appdb`:
+	127.0.0.1:5432 (localhost): dial error: dial tcp 127.0.0.1:5432: connect: connection refused
+	[::1]:5432 (localhost): dial error: dial tcp [::1]:5432: connect: connection refused
+ERROR: 2025/08/20 16:11:02 logger.go:69: PostgreSQL save error: failed to connect to `user=postgres database=appdb`:
+	127.0.0.1:5432 (localhost): dial error: dial tcp 127.0.0.1:5432: connect: connection refused
+	[::1]:5432 (localhost): dial error: dial tcp [::1]:5432: connect: connection refused
+ERROR: 2025/08/20 16:11:58 logger.go:69: PostgreSQL save error: failed to connect to `user=postgres database=appdb`:
+	127.0.0.1:5432 (localhost): dial error: dial tcp 127.0.0.1:5432: connect: connection refused
+	[::1]:5432 (localhost): dial error: dial tcp [::1]:5432: connect: connection refused
+ERROR: 2025/08/20 16:12:33 logger.go:69: Не удалось запустить HTTP сервер: http: Server closed
+ERROR: 2025/08/20 23:13:04 logger.go:69: Не удалось запустить HTTP сервер: listen tcp: address 8080: missing port in address
+ERROR: 2025/08/20 23:21:59 logger.go:69: Не удалось запустить HTTP сервер: http: Server closed
+ERROR: 2025/08/22 13:07:24 logger.go:69: PostgreSQL save error: context canceled
+ERROR: 2025/08/22 13:10:44 logger.go:69: Invalid period format error time: invalid duration "m"
+ERROR: 2025/08/22 13:10:49 logger.go:69: Invalid period format error time: invalid duration "m"
+ERROR: 2025/08/22 13:10:57 logger.go:69: Invalid period format error time: invalid duration "s"
+ERROR: 2025/08/22 13:15:56 logger.go:69: Не удалось запустить HTTP сервер: http: Server closed
+ERROR: 2025/08/22 13:20:18 logger.go:69: PostgreSQL save error: context canceled
+ERROR: 2025/08/22 13:23:19 logger.go:69: PostgreSQL save error: context canceled
+ERROR: 2025/08/22 13:23:20 logger.go:69: PostgreSQL save error: context canceled
+ERROR: 2025/08/22 13:23:22 logger.go:69: PostgreSQL save error: context canceled
+ERROR: 2025/08/22 13:23:23 logger.go:69: PostgreSQL save error: context canceled
+ERROR: 2025/08/22 13:23:23 logger.go:69: PostgreSQL save error: context canceled
+ERROR: 2025/08/22 13:23:27 logger.go:69: PostgreSQL save error: context canceled
+ERROR: 2025/08/22 13:23:27 logger.go:69: PostgreSQL save error: context canceled
+ERROR: 2025/08/22 13:30:18 logger.go:69: Не удалось запустить HTTP сервер: http: Server closed
+ERROR: 2025/08/22 13:34:21 logger.go:69: Не удалось запустить HTTP сервер: http: Server closed
+ERROR: 2025/08/26 14:43:31 logger.go:69: Не удалось запустить HTTP сервер: http: Server closed
+ERROR: 2025/08/26 15:00:50 logger.go:69: PostgreSQL save error: context canceled
+ERROR: 2025/08/26 15:07:09 logger.go:69: Не удалось запустить HTTP сервер: http: Server closed
+ERROR: 2025/08/26 15:08:50 logger.go:69: Не удалось запустить HTTP сервер: http: Server closed
+ERROR: 2025/08/26 15:19:29 logger.go:69: Не удалось запустить HTTP сервер: http: Server closed
+ERROR: 2025/08/26 15:49:29 logger.go:69: Не удалось запустить HTTP сервер: http: Server closed
+ERROR: 2025/08/26 15:51:05 logger.go:69: Не удалось запустить HTTP сервер: http: Server closed
+ERROR: 2025/08/26 16:00:42 logger.go:69: Не удалось запустить HTTP сервер: http: Server closed
+ERROR: 2025/08/26 16:17:19 logger.go:69: Не удалось запустить HTTP сервер: http: Server closed
+ERROR: 2025/08/26 16:26:14 logger.go:69: Не удалось запустить HTTP сервер: http: Server closed
+ERROR: 2025/08/26 16:30:10 logger.go:69: Не удалось запустить HTTP сервер: http: Server closed
+ERROR: 2025/08/26 16:32:00 logger.go:69: Не удалось запустить HTTP сервер: http: Server closed
+ERROR: 2025/08/26 16:34:32 logger.go:69: Не удалось запустить HTTP сервер: http: Server closed
+ERROR: 2025/08/26 16:40:56 logger.go:69: Не удалось запустить HTTP сервер: http: Server closed
+ERROR: 2025/08/26 16:51:12 logger.go:69: Не удалось запустить HTTP сервер: http: Server closed
